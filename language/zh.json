@@ -1,0 +1,63 @@
+{
+  "semantics": [
+    {
+      "label": "问题清单",
+      "entity": "问题",
+      "field": {
+        "label": "问题与选择",
+        "fields": [
+          {
+            "label": "问题"
+          },
+          {
+            "label": "选项——默认首个选项是正确的",
+            "entity": "回答",
+            "field": {
+              "label": "选项"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "label": "动作设置",
+      "fields": [
+        {
+          "label": "正确选项超时时间",
+          "description": "以毫秒为单位计算"
+        },
+        {
+          "label": "错误选项超时时间",
+          "description": "以毫秒为单位计算"
+        },
+        {
+          "label": "启用音效"
+        },
+        {
+          "label": "启用重试按钮"
+        },
+        {
+          "label": "启用查看答案按钮"
+        }
+      ]
+    },
+    {
+      "label": "单选选项列表相关文字",
+      "fields": [
+        {
+          "label": "结论幻灯片标题",
+          "description": ":numcorrect 回答被正确回答的个数取代 and :maxscore  最高分被问题总数取代"
+        },
+        {
+          "label": " \"正确答案\" 按钮上的文字"
+        },
+        {
+          "label": " \"重试\" 按钮上的文字"
+        },
+        {
+          "label": "显示答案页面的标题"
+        }
+      ]
+    }
+  ]
+}
